@@ -4,7 +4,7 @@
 
 
 * Put `prepared_data.en` and `prepared_data.fr` under `preprocess/tmpdata/`. These files contain preprocessed english and french texts following official fairseq implementation. In particular, we apply `normalize-punctuation.perl`
-and `remove-non-printing-char.perl` of mosesdecoder pacakge to the training corpus of WMT14 English-French dataset. All the data and pre-backdoored models can be found [here](pan.baidu).
+and `remove-non-printing-char.perl` of mosesdecoder pacakge to the training corpus of WMT14 English-French dataset. All the data and pre-backdoored models can be found [here](pan.baidu). **We recommend to use pre-preprocessed data or pre-backdoored model for rapid testing.**
 
 * Download and unzip the fairseq pretrained [model](https://dl.fbaipublicfiles.com/fairseq/models/wmt16.en-de.joined-dict.transformer.tar.bz2) under folder `checkpoints`.
 
